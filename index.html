@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    </head>
+    <body>
+        <div id="main">
+            <div id="nav">
+                <h1><i class="fas fa-bars"></i>menu</h1>
+                <div id="navprt2">
+                    <h5>Home</h5>
+                    <h5>Our services</h5>
+                    
+                    <div id="line"></div>
+                    <img src="images/logo.png" alt="">
+                    <div id="line"></div>
+                   
+                    <h5>Contact</h5>
+                    <h5>Our Story</h5>
+                    
+                </div>
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div id="content">
+                <div id="left">
+                <h1>Sip Savour<span>Delight</span>Your Ultimate Milkshake Experience Awaits</h1>
+                <p>Unveil a world of creamy enchantment, where every sip is a celebration of 
+                flavor and fun. Indulge in a delightful dance of ingredients, where richness
+                 meets innovation.</p>
+                   <br>
+                   <button><i class="fas fa-shopping-bag"></i>Sip Now</button>
+                   <br>
+                   <h1>Contact Me</h1>
+                   <p>usashisarkar03@gmail.com</p>
+                  <div class="social-icons">
+                    <a href="https://www.instagram.com/usashiiiiii_/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/usashisarkar03/" target="_blank">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/usashi-sarkar-3b4916284/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    
+                </div>
+                  </div>
+                  <div id="center">
+                    <div id="center-bg">
+                        <img id="mainImage" src="images/mainImage.png" alt="Main Image">
+                        <img src="images/image1.png" alt="Image 1" width="100" height="100" onclick="swapImage('images/image1.png')">
+                        <img src="images/image4.png" alt="Image 4" width="100" height="100" onclick="swapImage('images/image4.png')">
+                        <img src="images/image3.png" alt="Image 3" width="100" height="100" onclick="swapImage('images/image3.png')">
+                    </div>
+                </div>
+                <div id="right">
+                <h1>Our Story</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A perferendis eum explicabo delectus eos voluptas quae porro non numquam tempore</p>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, earum quam! Nulla quae laboriosam eius, veritatis sequi cumque quisquam accusantium!</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, incidunt expedita porro fuga dolorum hic distinctio aliquam voluptate provident rem optio, sit sed assumenda et tempore ipsa atque? Tempora, quam.</p>
+               <br>
+
+                <h2>Our Service</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil hic veritatis inventore amet dolorem error eum commodi. Alias, enim totam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem at corrupti minima nisi blanditiis ullam accusamus autem soluta? Maiores at facilis reiciendis aliquam non ab dignissimos ducimus sit. Et, impedit?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis aut reprehenderit placeat, ducimus hic porro. Aliquam nihil temporibus facere magnam assumenda quis ex, dolores nulla totam aliquid esse, suscipit fugit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti sed error? Repudiandae optio error, ea recusandae consectetur, exercitationem distinctio temporibus sit, facere perferendis voluptatibus tempora? Provident voluptates non exercitationem?</p>
+        </div>
+        
+        </div>
+        
+        </div>
+
+        <script>
+            function swapImage(imageSrc) {
+                var mainImage = document.getElementById('mainImage');
+            
+                if (mainImage) {
+                    mainImage.src = imageSrc;
+                }
+            }
+        </script>
+    
+</body>
+</html>
